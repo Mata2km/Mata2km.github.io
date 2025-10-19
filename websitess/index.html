@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Profil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Bagian About -->
+    <header>
+      <h1>About</h1>
+      <p>Website ini bertujuan untuk candaan menampilkan daftar orang, profil, latar belakang, dan akun media sosial mereka, website ini dibuat oleh Mata2km dibuat karena marak nya drama di dunia SA:MP Indonesia.</p>
+    </header>
+
+    <h1>Daftar Profil Orang</h1>
+
+    <!-- Kolom penjelasan maksud website -->
+    <h2>Tentang Website Ini</h2>
+    <p id="deskripsi">
+      Pembuatan website ini dimulai tanggal 19/10/2025 dan akan dilanjutkan seterusnya jika ramai.
+    </p>
+
+    <!-- Daftar list orang -->
+    <h2>List Orang Berdosa</h2>
+    <ul id="daftar-orang">
+      <li><a href="profil1.html">Tian Metal</a></li>
+      <li><a href="profil2.html">PateeerQ</a></li>
+      <li><a href="profil3.html">Jaer</a></li>
+    </ul>
+
+    <!-- Login admin -->
+    <div id="login-section">
+      <h3>Admin Panel</h3>
+      <input type="password" id="password" placeholder="Masukkan password">
+      <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Admin control -->
+    <div id="admin-section" style="display:none;">
+      <button onclick="tambahOrang()">+ Tambah Orang</button>
+    </div>
+
+    <!-- Kolom link sosial umum -->
+    <h2>Link Cees Hitam</h2>
+    <div class="social-links">
+      <a href="https://discord.gg/TUThA4xBwj" target="_blank">Community</a>
+      <a href="https://youtube.com/@mata2km?si=p2uaH8I5Z9NR5MOe" target="_blank">YouTube Mata2km</a>
+      <a href="https://saweria.co/Justkiykyk" target="_blank">Support us</a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <footer style="text-align:center; margin-top:20px; font-size:14px; color:#aaa;">
+    &copy; 2025 Mata2km Website. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

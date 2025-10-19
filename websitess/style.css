@@ -1,0 +1,63 @@
+/* Gunakan font Inter dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', Arial;
+  margin: 0;
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4cafef;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #76c7ff;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  background: #4cafef;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #1e1e1e;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #e0e0e0;
+  font-weight: 600;
+}
